@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta description="author" content="Ojini Chizoba">
+        <title>Twitchtv Status App</title>
+        
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Boogaloo|Encode+Sans:600|Handlee|Monoton" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        
+        <div class="container-fluid">
+            <div class="ct-limit">
+                <div class="main-logo">
+                    <i class="fa fa-twitch" aria-hidden="true"></i><span> Twitch Tv Status Checker</span>
+                    <h4><a href="https://twitch.tv/freecodecamp" target="_blank">Freecodecamp <span id="fcc">...</span></a></h4>
+                </div>
+            </div>
+        </div>
+        
+        <!--search section-->
+        <section class="container row">
+            <div class="input-group search-box col-md-4">
+                <input id="search" type="text" class="form-control formamend" placeholder="Search username or id...">
+            </div>
+        </section>
+        
+        <!--The result section-->
+        <sectio class="container">
+            <div class="row re">
+                <div id="results"></div>
+                    
+            </div>
+        </sectio>
+        
+        <!--footer section-->
+        <section class="footer-container hidden">
+            <div footer-items>
+                <footer class="me">
+                    &copy; copyright 2017 &#124; <a href="https://github.com/deityhub" target="_blank">Ojini Chizoba</a>
+                    <p class="social">
+                        <a href="http://facebook.com/deityhub" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="http://twitter.com/deityhub" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                        <a href="http://freecodecamp.com/deityhub" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+                    </p>
+                </footer>
+            </div>
+        </section>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
